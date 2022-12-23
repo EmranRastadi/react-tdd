@@ -1,46 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, beautiful, customizable date picker for React.
 
-## Available Scripts
+## Installation 🚀
+```bash
+npm i @emranrastadi/react-modern-calendar-datepicker
 
-In the project directory, you can run:
+# or if you prefer Yarn:
+yarn add @emranrastadi/react-modern-calendar-datepicker
+```
 
-### `npm start`
+## new parameter for time picker
+You can add this for active or deactive time-picker in calendar
+ ```bash
+  enableTime={true|false}
+```
+After enable time-picker , if you want to use range date , you can send `fromTime` and `toTime` with look likes value `19:17` to default value with `from` and `to` date. 
+After select time with day , we will give you an object with four key and values :
+```
+{
+  from : {
+    year : 1398,
+    month: 9,
+    day: 21
+  },
+  to : {
+    year : 1398,
+    month: 9,
+    day: 28
+  },
+  fromTime : '21:18',
+  toTime: '18:18`
+}
+```
+## Documentation 📄
+You can find documentation on [the website.](https://kiarash-z.github.io/react-modern-calendar-datepicker/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The documentation is divided into several sections:
+- [Getting Started](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/getting-started)
+- [Core Concepts](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/core-concepts)
+- [Default Values](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/default-values)
+- [Minimum & Maximum Date](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/minimum-maximum-date)
+- [Disabled Days](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/disabled-days)
+- [Customization](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/customization)
+- [Responsive Guide](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/responsive-guide)
+- [Utilities](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/utilities)
+- [Different Locales](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/different-locales)
+- [TypeScript](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/typescript)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## LICENSE
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[MIT](LICENSE)
