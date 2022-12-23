@@ -16,7 +16,7 @@ You can add this for active or deactive time-picker in calendar
 ```
 After enable time-picker , if you want to use date range , you can send `fromTime` and `toTime` by look likes value `19:17` by default value with `from` and `to` date. 
 After select time with day , we will give you an object with four key and values :
-```object
+```javascript
 {
   from : {
     year : 1398,
