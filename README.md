@@ -14,9 +14,9 @@ You can add this for active or deactive time-picker in calendar
  ```bash
   enableTime={true|false}
 ```
-After enable time-picker , if you want to use range date , you can send `fromTime` and `toTime` with look likes value `19:17` to default value with `from` and `to` date. 
+After enable time-picker , if you want to use date range , you can send `fromTime` and `toTime` by look likes value `19:17` by default value with `from` and `to` date. 
 After select time with day , we will give you an object with four key and values :
-```
+```json
 {
   from : {
     year : 1398,
