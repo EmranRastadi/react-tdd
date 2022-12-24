@@ -34,7 +34,7 @@ After select time with day , we will give you an object with four key and values
 ```
 
 ## Minimum and Maximum date
-Please follow this structure for use minimum and maximum date.
+Please if you wanna use minimum and maximum date, follow this structure:
 ```javascript
   const minimumDate = {
     year:1401,
@@ -48,7 +48,7 @@ Please follow this structure for use minimum and maximum date.
   }
 ```
 
-locale is important for running currect. ***jallali date just use by locale fa***
+You should know ,*`locale‍` is important for currect implementation. ***please sync date with your locale.You cann't use locale `fa` for AD date***
 ## Documentation 📄
 You can find documentation on [the website.](https://kiarash-z.github.io/react-modern-calendar-datepicker/)
 
