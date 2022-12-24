@@ -29,9 +29,26 @@ After select time with day , we will give you an object with four key and values
     day: 28
   },
   fromTime : '21:18',
-  toTime: '18:18`
+  toTime: '18:18'
 }
 ```
+
+## Minimum and Maximum date
+Please follow this structure for use minimum and maximum date.
+```javascript
+  const minimumDate = {
+    year:1401,
+    month: 9,
+    day: 8
+  }
+  const maximumDate = {
+    year:1401,
+    month: 9,
+    day: 28
+  }
+```
+
+locale is important for running currect **jallali date just use by locale fa**
 ## Documentation 📄
 You can find documentation on [the website.](https://kiarash-z.github.io/react-modern-calendar-datepicker/)
 
