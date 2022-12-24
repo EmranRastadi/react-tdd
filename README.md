@@ -48,7 +48,7 @@ Please follow this structure for use minimum and maximum date.
   }
 ```
 
-locale is important for running currect **jallali date just use by locale fa**
+locale is important for running currect. ***jallali date just use by locale fa***
 ## Documentation 📄
 You can find documentation on [the website.](https://kiarash-z.github.io/react-modern-calendar-datepicker/)
 
